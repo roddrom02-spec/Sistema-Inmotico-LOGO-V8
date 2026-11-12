@@ -1,24 +1,31 @@
-# 🏢 Sistema Inmótico de Detección Temprana de Incendios
-**Proyecto Automatizado con LOGO! V8.0 - FP UNA**
+# Sistema inmótico de detección temprana de incendios
+**Control Automático I · Mecatrónica · FP-UNA · 2026**
+Propuesta de implementación con Siemens LOGO! V8.0 (12/24RCE) para el laboratorio de electrónica de la Facultad Politécnica, UNA.
 
-## 👥 Equipo de Trabajo
-* **Roddy Iván Romero Centurión**
-* **Miguel Matias Cardozo Barboza**
-* **Emanuel Augusto Dure Obando**
-* **Adolfo Abigail jara Benítez**
+## Equipo
+- Roddy Iván Romero Centurión
+- Miguel Matías Cardozo Barboza
+- Emanuel Augusto Duré Obando
+- Adolfo Abigail Jara Benítez
 
-## 📋 Descripción del Proyecto
-Este repositorio contiene todos los archivos técnicos y la lógica de programación desarrollada para el sistema automatizado de detección temprana de incendios, utilizando el controlador **LOGO! V8.0**. 
+**Docentes:** Prof. Ing. Felipe R. Chena C. · Prof. Ing. Christian Ledesma A.
 
-El objetivo es automatizar la respuesta ante emergencias para proteger la infraestructura y a las personas.
+## Qué hace el sistema
+Confirma el incendio con humo y temperatura (T ≥ 50 °C, retardo de 3 s), arranca la bomba en estrella–triángulo con protecciones y avisa por Web Server y SMS. Programado en FUP (IEC 61131-3).
 
-## ⚙️ ¿Qué incluye este repositorio?
-* Programa principal de LOGO! V8.
-* Planos y esquemas de conexión.
-* Documentación técnica y de respaldo.
+## Contenido del repositorio
+| Carpeta | Contenido |
+|---|---|
+| `programa_logo/` | Programa FUP del LOGO! Soft Comfort `[nombre.lsc]` |
+| `simulador_3d/` | Gemelo digital 3D `[cómo abrirlo]` |
+| `diagramas/` | Diagrama de bloques y esquemas de conexión (.drawio y PDF) |
+| `documentacion/` | Documento explicativo |
 
-## 🚀 Instrucciones para Evaluación (Profesor)
-1. Vaya al botón verde **"Code"** en la parte superior de esta página.
-2. Haga clic en **"Download ZIP"** para descargar todos los archivos de una vez.
-3. Descomprima la carpeta y abra el programa utilizando el software *LOGO! Soft Comfort*.
+## Cómo evaluar
+1. Botón verde **Code → Download ZIP** y descomprimir.
+2. Abrir `programa_logo/[archivo]` con LOGO! Soft Comfort V8 y ejecutar la simulación.
+3. Abrir el simulador 3D: `[instrucción: archivo o enlace]`.
+4. Escenarios validados: 8 de 8 en LOGO! y en el simulador.
 
+## Estado
+Propuesta de implementación; los parámetros del simulador son supuestos y se validarán con maqueta física.
