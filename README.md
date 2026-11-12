@@ -24,7 +24,7 @@ Confirma el incendio con humo y temperatura (T ≥ 50 °C, retardo de 3 s), arra
 ## Cómo evaluar
 1. Botón verde **Code → Download ZIP** y descomprimir.
 2. Abrir `programa_logo/[archivo]` con LOGO! Soft Comfort V8 y ejecutar la simulación.
-3. Abrir el simulador 3D: `[laboratorio interactivo html]`.
+3. Abrir el simulador 3D: `[laboratorio interactivo]`.
 4. Escenarios validados: 8 de 8 en LOGO! y en el simulador.
 
 ## Estado
