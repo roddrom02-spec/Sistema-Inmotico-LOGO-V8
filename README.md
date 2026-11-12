@@ -16,8 +16,8 @@ Confirma el incendio con humo y temperatura (T ≥ 50 °C, retardo de 3 s), arra
 ## Contenido del repositorio
 | Carpeta | Contenido |
 |---|---|
-| `programa_logo/` | Programa FUP del LOGO! Soft Comfort `[nombre.lsc]` |
-| `simulador_3d/` | Gemelo digital 3D `[cómo abrirlo]` |
+| `programa_logo/` | Programa FUP del LOGO! Soft Comfort `[programa_logo.lsc]` |
+| `simulador_3d/` | Gemelo digital 3D `[HTML]` |
 | `diagramas/` | Diagrama de bloques y esquemas de conexión (.drawio y PDF) |
 | `documentacion/` | Documento explicativo |
 
